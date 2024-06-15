@@ -115,6 +115,7 @@ nav:
     - Binary Search: Methodology/Binary_Search.md
     - Sliding Window: Methodology/Sliding Window.md
   - 1-100:
+    - 1. Two Sum: 1-100/1. Two Sum.md
     - 3. Longest Substring Without Repeating Characters : 1-100/3. Longest Substring Without Repeating Characters.md
     - 11. Container With Most Water : 1-100/11. Container With Most Water.md
     - 15. 3Sum: 1-100/15. 3Sum.md
