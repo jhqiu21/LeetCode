@@ -1,9 +1,10 @@
 site_name: LeetCode Notes
-site_url: https://jhqiu21.github.io/blog/LeetCode
+site_url: https://jhqiu21.github.io/LeetCode/
 repo_name: jhqiu21/LeetCode
 repo_url: https://github.com/jhqiu21/LeetCode
 theme: 
   name: material
+  custom_dir: overrides
   plugins:
   - blog
   - tags
@@ -34,6 +35,7 @@ theme:
     - navigation.path
     - content.tabs.link
     - navigation.indexes 
+    - navigation.footer # Add prev and next link in the footer
     - toc.follow
     - navigation.top
     - content.code.copy
