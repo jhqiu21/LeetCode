@@ -1,4 +1,4 @@
-site_name: LeetCode
+site_name: LeetCode Notes
 site_url: https://jhqiu21.github.io/blog/LeetCode
 repo_name: jhqiu21/LeetCode
 repo_url: https://github.com/jhqiu21/LeetCode
@@ -8,14 +8,14 @@ theme:
   - blog
   - tags
   palette:
-    #- media: "(prefers-color-scheme: light)" # color scheme: light
+    #- media: "(prefers-color-scheme: light)" 
     - scheme: default
-      primary: custom
-      accent: custom
+      primary: orange
+      accent: orange
       toggle:
         icon: octicons/sun-16
         name: Switch to dark mode
-    #- media: "(prefers-color-scheme: dark)" # color scheme: dark
+    #- media: "(prefers-color-scheme: dark)" 
     - scheme: slate
       primary: black
       accent: white
@@ -24,7 +24,7 @@ theme:
         name: Switch to system preference
   language: en
   icon:
-    logo: material/earth
+    logo: fontawesome/solid/code
     repo: fontawesome/brands/git-alt
   features:
     - announce.dismiss
@@ -82,7 +82,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
-  &copy; 2024 <a herf="https://jhqiu21.github.io/Blog/" target="_blank">Jin Hang's Tech Blog</a>
+  &copy; 2024 <a herf="https://jhqiu21.github.io/blog/LeetCode" target="_blank">Jin Hang's Tech Blog/LeetCode Notes</a>
 
 extra: 
   social: 
