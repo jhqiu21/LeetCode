@@ -1,5 +1,5 @@
 site_name: LeetCode Notes
-site_url: https://jhqiu21.github.io/LeetCode/
+site_url: https://jhqiu21.github.io/LeetCode
 repo_name: jhqiu21/LeetCode
 repo_url: https://github.com/jhqiu21/LeetCode
 theme: 
@@ -88,6 +88,8 @@ copyright: |
 
 extra: 
   social: 
+    - icon: fontawesome/solid/earth-americas
+      link: https://jhqiu21.github.io/Blog/
     - icon: fontawesome/brands/github
       link: https://github.com/jhqiu21
     - icon: fontawesome/brands/linkedin
@@ -106,6 +108,9 @@ extra_css:
 
 nav:
   - index.md
+  - Style Guide: Style Guide.md
+  - DS:
+    - Hash: DS/hash.md
   - Methodology:
     - Binary Search: Methodology/Binary_Search.md
     - Sliding Window: Methodology/Sliding Window.md
