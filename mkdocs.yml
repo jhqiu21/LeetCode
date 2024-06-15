@@ -34,7 +34,6 @@ theme:
     - navigation.path
     - content.tabs.link
     - navigation.indexes 
-    
     - toc.follow
     - navigation.top
     - content.code.copy
