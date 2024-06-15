@@ -109,7 +109,7 @@ extra_css:
 nav:
   - index.md
   - Style Guide: Style Guide.md
-  - DS:
+  - Data Structure:
     - Hash: DS/hash.md
   - Methodology:
     - Binary Search: Methodology/Binary_Search.md
