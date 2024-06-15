@@ -1,0 +1,129 @@
+site_name: LeetCode
+site_url: https://jhqiu21.github.io/blog/LeetCode
+repo_name: jhqiu21/LeetCode
+repo_url: https://github.com/jhqiu21/LeetCode
+theme: 
+  name: material
+  plugins:
+  - blog
+  - tags
+  palette:
+    #- media: "(prefers-color-scheme: light)" # color scheme: light
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: octicons/sun-16
+        name: Switch to dark mode
+    #- media: "(prefers-color-scheme: dark)" # color scheme: dark
+    - scheme: slate
+      primary: black
+      accent: white
+      toggle:
+        icon: octicons/sun-16
+        name: Switch to system preference
+  language: en
+  icon:
+    logo: material/earth
+    repo: fontawesome/brands/git-alt
+  features:
+    - announce.dismiss
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.path
+    - content.tabs.link
+    - navigation.indexes 
+    
+    - toc.follow
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - abbr
+  - attr_list
+  - pymdownx.snippets    
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: |
+  &copy; 2024 <a herf="https://jhqiu21.github.io/Blog/" target="_blank">Jin Hang's Tech Blog</a>
+
+extra: 
+  social: 
+    - icon: fontawesome/brands/github
+      link: https://github.com/jhqiu21
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jinhang-qiu-417509288/
+    
+
+extra_javascript:
+  - js/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css   
+  - css/custom.css
+
+
+nav:
+  - index.md
+  - Methodology:
+    - Binary Search: Methodology/Binary_Search.md
+    - Sliding Window: Methodology/Sliding Window.md
+  - 1-100:
+    - 3. Longest Substring Without Repeating Characters : 1-100/3. Longest Substring Without Repeating Characters.md
+    - 11. Container With Most Water : 1-100/11. Container With Most Water.md
+    - 15. 3Sum: 1-100/15. 3Sum.md
+    - 19. Remove Nth Node From End of List: 1-100/19. Remove Nth Node From End of List.md
+    - 33. Search in Rotated Sorted Array : 1-100/33. Search in Rotated Sorted Array.md
+    - 53. Maximum Subarray : 1-100/53. Maximum Subarray.md
+    - 70. Climbing Stairs : 1-100/70. Climbing Stairs.md
+    - 84. Largest Rectangle in Histogram : 1-100/84. Largest Rectangle in Histogram.md
+  - 101-200:
+    - 105. Construct Binary Tree from Preorder and Inorder Traversal: 101-200/105. Construct Binary Tree from Preorder and Inorder Traversal.md
+    - 152. Maximum Product Subarray : 101-200/152. Maximum Product Subarray.md
+    - 169. Majority Element: 101-200/169. Majority Element.md
+    - 200. Number of Islands: 101-200/200. Number of Islands.md
+  - 201-300:
+    - 300. Longest Increasing Subsequence : 201-300/300. Longest Increasing Subsequence.md
+  - 401-500:
+    - 424. Longest Repeating Character Replacement : 401-500/424. Longest Repeating Character Replacement.md  
+  
