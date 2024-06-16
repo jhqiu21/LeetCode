@@ -110,7 +110,11 @@ nav:
   - index.md
   - Style Guide: Style Guide.md
   - Data Structure:
-    - Hash: DS/hash.md
+    - Array: DS/array.md
+    - List: DS/list.md
+    - Tree: DS/tree.md
+    - Hashing: DS/hash.md
+    - Graph: DS/graph.md
   - Methodology:
     - Binary Search: Methodology/Binary_Search.md
     - Sliding Window: Methodology/Sliding Window.md
