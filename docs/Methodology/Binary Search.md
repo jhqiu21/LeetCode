@@ -33,3 +33,27 @@ Note that loop invariant is `left <= right`, it means when loop terminate
 !!! Question
     Why we use `<=` instead of `<` in our loop invarinat
 
+## Search for Left boundary
+
+Given an array of sorted numbers. Note that numbers could be duplicate, find the left most `target`.
+
+```java linenums="1"
+public static int binaryLeftSearch(int[] nums, int target) {        
+    int low = 0
+    int high = nums.length - 1;
+    while (low <= high) {
+        int mid = low + ((high - low) >> 1);
+        if (target <= nums[mid]) {
+            index = mid;
+            high = mid - 1;
+        } else {
+            low = mid - 1;
+        }
+    }
+    
+    if (index == -1) {
+        return -1;
+    }
+    return arr[index] == target ? index : -1;
+}
+```
